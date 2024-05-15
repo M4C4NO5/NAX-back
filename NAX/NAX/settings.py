@@ -30,7 +30,9 @@ ALLOWED_HOSTS = ['34.29.206.12','https://incomparable-torte-245532.netlify.app']
 
 
 # Application definition
-
+CORS_ORIGIN_WHITELIST = [
+    "https://incomparable-torte-245532.netlify.app"
+    ]
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
